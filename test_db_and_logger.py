@@ -1,6 +1,5 @@
 """
 Name: Camea Hoffman
-Assignment: a09
 Description: Focused coverage tests for db_manager.py and logger_decorator.py
 """
 

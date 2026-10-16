@@ -1,6 +1,5 @@
 """
 Name: Camea Hoffman
-Assignment: a09
 Description: Integration-level tests for main.py
 Covers: load_users, load_status_updates, wrapper functions,
         picture reconciliation, DatabaseManager, and log_decorator

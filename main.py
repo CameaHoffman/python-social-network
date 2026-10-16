@@ -1,6 +1,5 @@
 """
 Name: Camea Hoffman
-Assignment: a09
 Description: Main driver for the functional social network project
 """
 

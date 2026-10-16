@@ -1,6 +1,5 @@
 """
 Name: Camea Hoffman
-Assignment: a09
 Description: Menu providing basic front end for the functional social networking project.
 
 This module provides a command-line interface for the social networking application.

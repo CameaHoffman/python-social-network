@@ -1,6 +1,5 @@
 """
 Name: Camea Hoffman
-Assignment: a09
 Description: REST API for the functional social network project.
 Provides endpoints for:
 - /users       → list all users and their statuses

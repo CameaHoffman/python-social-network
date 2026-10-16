@@ -1,6 +1,5 @@
 """
 Name: Camea Hoffman
-Assignment: a09
 Description: Context manager for database connections.
 
 This module defines the DatabaseManager class, which wraps a Peewee

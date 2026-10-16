@@ -1,6 +1,5 @@
 """
 Name: Camea Hoffman
-Assignment: a09
 Description: Recursive image listing and reconciliation for social network project.
 
 This module provides:

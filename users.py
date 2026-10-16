@@ -1,6 +1,5 @@
 """
 Name: Camea Hoffman
-Assignment: a08
 Description: Functional Users API using closures and currying
 """
 

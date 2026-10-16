@@ -1,6 +1,5 @@
 """
 Name: Camea Hoffman
-Assignment: a08
 Description: Functional Status API using closures and currying
 
 This module provides a closure-based API for managing status updates in a social

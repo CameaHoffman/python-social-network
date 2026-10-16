@@ -1,6 +1,5 @@
 """
 Name: Camea Hoffman
-Assignment: a08
 Description: Database schema and helpers for social network project
 """
 

@@ -1,6 +1,5 @@
 """
 Name: Camea Hoffman
-Assignment: a09
 Description: Logging decorator for the social network project.
 
 This module sets up application-wide logging to the file `assignment9.log`.

@@ -1,6 +1,6 @@
 """
 Create the SQLite database and initialize Users/Status tables
-using functional DataSet approach (Assignment 08).
+using functional DataSet approach.
 """
 
 import logging

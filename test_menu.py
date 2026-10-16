@@ -1,7 +1,6 @@
 """
 Name: Camea Hoffman
-Assignment: a08
-Description: Unit tests for menu.py functions (adapted from A03)
+Description: Unit tests for menu.py functions
 
 This module provides unit tests for the menu.py module, which serves as the front-end
 interface for a social networking application. Tests cover user and status operations

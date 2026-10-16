@@ -1,6 +1,5 @@
 """
 Name: Camea Hoffman
-Assignment: a09
 Description: Extra coverage tests for DatabaseManager, log_decorator,
              and add_picture validation logic.
 """

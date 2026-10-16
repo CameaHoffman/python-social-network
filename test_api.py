@@ -1,7 +1,7 @@
 """
 Name: Camea Hoffman
 Date: February 2025
-Assignment 10 (Flask API)
+Flask API
 
 This module implements a Flask REST API for the social network project.
 It exposes three endpoints:
