@@ -1,4 +1,4 @@
-# Social Networking App
+# Python Social Network
 
 A Python social networking project by Camea Hoffman, developed across lessons
 in Python 320. This repository starts with my assignment 10 implementation.
