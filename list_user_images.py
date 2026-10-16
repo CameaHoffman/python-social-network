@@ -13,13 +13,26 @@ from pathlib import Path
 
 def list_user_images(user_id, base_path="images"):
     """
-    List all image files for a given user on disk.
-    Returns an empty set if the folder doesn't exist (instead of raising).
+    Return (user_id, folder_path, filename) tuples, including nested PNGs.
+    Return an empty list if the user's folder doesn't exist.
     """
     folder = Path(base_path) / user_id
     if not folder.exists():
-        return set()   # instead of raising
-    return {f.name for f in folder.glob("*.png") if f.is_file()}
+        return []
+
+    def scan_directory(directory):
+        images = []
+        for item in sorted(directory.iterdir()):
+            # Avoid following links that could create directory loops.
+            if item.is_symlink():
+                continue
+            if item.is_dir():
+                images.extend(scan_directory(item))
+            elif item.is_file() and item.suffix.lower() == ".png":
+                images.append((user_id, str(item.parent), item.name))
+        return images
+
+    return scan_directory(folder)
 
 def reconcile_images(user_id, db, base_path=None):
     """
