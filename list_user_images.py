@@ -34,13 +34,14 @@ def list_user_images(user_id, base_path="images"):
 
     return scan_directory(folder)
 
-def reconcile_images(user_id, db, base_path=None):
+def reconcile_images(user_id, db, base_path="images"):
     """
     Compare DB picture records with on-disk `.png` files for one user.
     Returns (missing_on_disk, missing_in_db) as sets of filenames.
+    base_path is the image root; the scanner adds the user folder once.
     """
     if base_path is None:
-        base_path = Path("images") / user_id
+        base_path = "images"
 
     # --- DB side ---
     db_pictures = db["Picture"].find(user_id=user_id)
